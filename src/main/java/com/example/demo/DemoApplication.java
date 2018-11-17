@@ -17,4 +17,9 @@ public class DemoApplication {
     public String index(String idx) {
         return "hello"+idx;
     }
+
+    @GetMapping("/test")
+    String test(String test) {
+        return "test"+ test;
+    }
 }
