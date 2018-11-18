@@ -18,5 +18,9 @@ public class DemoApplication {
         return "hello"+idx;
     }
 
+    @GetMapping("/hello")
+    String hello() {
+        return "hello";
+    }
 
 }
