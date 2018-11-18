@@ -18,8 +18,5 @@ public class DemoApplication {
         return "hello"+idx;
     }
 
-    @GetMapping("/test")
-    String test(String test) {
-        return "test"+ test;
-    }
+
 }
