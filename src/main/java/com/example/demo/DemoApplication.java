@@ -20,7 +20,7 @@ public class DemoApplication {
 
     @GetMapping("/hello")
     String hello() {
-        return "hello";
+        return "helloa";
     }
 
 }
